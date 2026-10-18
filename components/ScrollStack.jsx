@@ -47,7 +47,7 @@ const ScrollStack = ({
   smoothScroll = true,
   snap = false,
   useWindowScroll = false,
-  onStackComplete
+  onStackComplete = undefined
 }) => {
   const rootRef = useRef(null);
   const innerRef = useRef(null);

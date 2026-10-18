@@ -746,9 +746,7 @@ export default function HomePage() {
                 threshold={0.12}
               >
                 <Accordion
-                  type="single"
-                  collapsible
-                  defaultValue="faq-1"
+                  defaultValue={["faq-1"]}
                   className="border-t border-border"
                 >
                   {[

@@ -131,19 +131,19 @@ export default function CountUp({
   delay = 0,
   duration = 2,
   className = '',
-  style,
+  style = {},
   startWhen = true,
   separator = '',
   prefix = '',
   suffix = '',
   mode = 'count',
   easing = 'easeOut',
-  decimals,
+  decimals = undefined,
   format = 'standard',
   trigger = 'view',
   replayOnHover = false,
-  onStart,
-  onEnd
+  onStart = undefined,
+  onEnd = undefined
 }) {
   const ref = useRef(null);
   const textRef = useRef(null);

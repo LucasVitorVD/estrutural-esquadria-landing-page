@@ -104,7 +104,7 @@ export function ServicesShowcase() {
   }, [activeIndex, isPaused]);
 
   return (
-    <section id="servicos" className="md:px-4" aria-labelledby="servicos-title">
+    <section id="servicos" aria-labelledby="servicos-title">
       <div
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}

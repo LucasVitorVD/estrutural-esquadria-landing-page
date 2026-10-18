@@ -225,9 +225,7 @@ export function Header() {
                 </Link>
 
                 <Accordion
-                  type="single"
-                  collapsible
-                  defaultValue="servicos"
+                  defaultValue={["servicos"]}
                   className="border-b border-border"
                 >
                   <AccordionItem value="servicos" className="border-0">
